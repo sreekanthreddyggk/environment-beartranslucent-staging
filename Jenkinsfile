@@ -20,7 +20,7 @@ pipeline {
         steps {
           container('maven') {
             sh "mvn versions:set -DnewVersion=$PREVIEW_VERSION"
-            sh "mvn install"
+            sh "mvn install -Dbuild.number=${BUILD_NUMBER}"
             sh 'export VERSION=$PREVIEW_VERSION && skaffold build -f skaffold.yaml'
 
 
@@ -56,7 +56,7 @@ pipeline {
             //}
           //}
           container('maven') {
-            sh 'mvn clean deploy'
+            sh 'mvn clean deploy -Dbuild.number=${BUILD_NUMBER}'
 
             sh 'export VERSION=`cat VERSION` && skaffold build -f skaffold.yaml'
             //sh nexusArtifactUploader  'nexusUser: 'admin', nexusPassword: 'admin123' ,  groupId: 'com.fms', nexusUrl: '35.231.59.10:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'repositories:maven-releases', version: '0.0.1-SNAPSHOT''
