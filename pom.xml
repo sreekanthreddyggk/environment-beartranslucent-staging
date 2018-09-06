@@ -5,7 +5,7 @@
 	<artifactId>FMS-Logistics</artifactId>
 	<packaging>pom</packaging>
 	<name>FMS-Logistics</name>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${build.number}</version>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
