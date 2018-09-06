@@ -19,12 +19,12 @@ pipeline {
         }
         steps {
           container('maven') {
-            sh "mvn versions:set -DnewVersion=$PREVIEW_VERSION"
-            sh "mvn install -Dbuild.number=${BUILD_NUMBER}"
-            sh 'export VERSION=$PREVIEW_VERSION && skaffold build -f skaffold.yaml'
+            //sh "mvn versions:set -DnewVersion=$PREVIEW_VERSION"
+            sh "mvn clean install -Dbuild.number=${BUILD_NUMBER}"
+            //sh 'export VERSION=$PREVIEW_VERSION && skaffold build -f skaffold.yaml'
 
 
-            sh "jx step post build --image $DOCKER_REGISTRY/$ORG/$APP_NAME:$PREVIEW_VERSION"
+            //sh "jx step post build --image $DOCKER_REGISTRY/$ORG/$APP_NAME:$PREVIEW_VERSION"
           }
 
           //dir ('./charts/preview') {
@@ -58,10 +58,10 @@ pipeline {
           container('maven') {
             sh 'mvn clean deploy -Dbuild.number=${BUILD_NUMBER}'
 
-            sh 'export VERSION=`cat VERSION` && skaffold build -f skaffold.yaml'
+            //sh 'export VERSION=`cat VERSION` && skaffold build -f skaffold.yaml'
             //sh nexusArtifactUploader  'nexusUser: 'admin', nexusPassword: 'admin123' ,  groupId: 'com.fms', nexusUrl: '35.231.59.10:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'repositories:maven-releases', version: '0.0.1-SNAPSHOT''
 
-            sh "jx step post build --image $DOCKER_REGISTRY/$ORG/$APP_NAME:\$(cat VERSION)"
+            //sh "jx step post build --image $DOCKER_REGISTRY/$ORG/$APP_NAME:\$(cat VERSION)"
           }
         }
       }
