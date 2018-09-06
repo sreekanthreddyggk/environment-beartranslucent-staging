@@ -6,13 +6,13 @@
 	<parent>
 		<groupId>com.fms</groupId>
 		<artifactId>FMS-Logistics</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>${build.number}</version>
 	</parent>
 	<dependencies>
 		<dependency>
 			<groupId>com.fms</groupId>
 			<artifactId>commons</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${build.number}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
