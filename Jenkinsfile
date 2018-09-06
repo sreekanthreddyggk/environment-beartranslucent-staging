@@ -59,7 +59,7 @@ pipeline {
             sh 'mvn clean deploy'
 
             sh 'export VERSION=`cat VERSION` && skaffold build -f skaffold.yaml'
-            sh nexusArtifactUploader  'nexusUser: 'admin', nexusPassword: 'admin123' ,  groupId: 'com.fms', nexusUrl: '35.231.59.10:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'repositories:maven-releases', version: '0.0.1-SNAPSHOT''
+            //sh nexusArtifactUploader  'nexusUser: 'admin', nexusPassword: 'admin123' ,  groupId: 'com.fms', nexusUrl: '35.231.59.10:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'repositories:maven-releases', version: '0.0.1-SNAPSHOT''
 
             sh "jx step post build --image $DOCKER_REGISTRY/$ORG/$APP_NAME:\$(cat VERSION)"
           }
