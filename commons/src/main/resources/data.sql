@@ -1,0 +1,81 @@
+select 1
+---- ACL Carrier input
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('ACL', 'RMWP1850058', '', 'ACLU9657103');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('ACL', 'SA00235130', '', 'ACLU9693712');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('ACL', 'SA00245395', '', 'ACLU9728059');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('ACL', 'SA00245393', '', 'ACLU9668453');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('ACL', 'SA00245377', 'US1852024', 'ACLU9654737');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('ACL', 'SA00244638', '', 'ACLU9708535');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('ACL', 'SA00246396', 'DE1860489', 'ACLU9708535');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('ACL', 'RMWP1850065', '', 'ACLU9648267');
+
+
+---- MAE Carrier input
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '576010010', '', 'MRKU2833946');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '576068349', '', 'MRKU2836971');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '575505222', '', 'MRKU2992320');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964350240', '', 'MSKU2222213');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '576337038', '', 'TCLU5406752');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', 'ER441', '', 'GATU8530388');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964783618', '', 'MSKU8856215');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964866524', '', 'MSKU8844174');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964883958', '', 'MRKU5611290');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '', '', 'MSKU3303773');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964580931', '964580931', 'MRKU9291657');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '576327362', '', 'CLHU8504782');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964738926', '964738926', 'TGHU3209579');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', 'ER443', '', 'MSKU8019203');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964581660', '', 'MIEU2027339');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964855437', 'CH1850264', 'MSKU2910540');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '576264385', '', 'MRKU4564722');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '576333990', '', 'MRKU2821360');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964841618', '', 'MSKU0218596');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964613612', '', 'MWCU6714438');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '576342055', '576342055', 'MSKU7628231');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '', '', 'XXXX1111111');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964821095', '', 'MRKU3057488');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '576343082', '', 'MRKU6843794');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '964690386', '', 'MRKU3215979');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '576332594', '', 'MRKU2060450');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '8IZMNT1412', 'SUDUI8618A2B1006', 'HASU1203631');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '8IZMNT1412', 'TR1850216', 'SUDU1766427');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MAE', '576345637', '', 'CAIU8348376');
+
+
+---- MSC Carrier input
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E62ON1RV', '', 'TGBU5869902');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459S52OR0TE', '', 'TRLU7078184');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E32OQ6QK', '', 'BMOU4443415');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E62OR1JZ', '', 'MEDU7867362');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E32OR0SB', '', 'MEDU4647596');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E32OR0TX', '', 'FSCU6312303');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E32OS0XG', '', 'MEDU8330803');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E32OS9KX', '', 'BMOU4924323');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E16OT1SI', '', 'GLDU7636818');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '', '', 'GSTU6393908');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '', '', 'MSCU4742581');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '', '', 'MEDU4106858');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E32OU1DM', '', 'FSCU6019229');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E62OV6IB', '', 'CXDU1362290');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E62OR3GE', '', 'TCKU1991116');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E62OV8RO', '', 'MSCU5750724');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '17880500544', '', 'MEDU6930100');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E62OW1FJ', '', 'TGCU5007820');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E32OO5OA', '', 'CARU9655408');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '17880500780', '', 'TRLU4875190');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E15OO5AG', '', 'GLDU3834862');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E94OX1NO', '', 'CAIU9753671');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '', '', 'DFSU6155641');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E32OL1GD', '', 'TGHU9123554');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E38OY3BI', 'BR277709', 'MSCU7862364');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E38OY2WU', 'BR277451', 'MSCU8638106');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '038VC1122131', 'US1851480', 'TBA1');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '17880500608', '', 'MEDU4168588');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E55OU4TR', '', 'GLDU7593594');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '363IN1337850418', 'MU174170', 'MEDU7609917');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '459E32OX8NM', '', 'CLHU8660548');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '193CA0646238', '', 'TCNU1555375');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', 'VQ175415', 'VQ175415', 'FCIU2621162');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '193CA0646237', '', 'TCNU1553433');
+--insert into webtracking_input(carrier, booking_ref, bl_number, containerno) values('MSC', '038VC1122010', '', 'BEAU4233409');
+
